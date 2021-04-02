@@ -43,7 +43,7 @@ Il client FTP inizia entrambe le connessioni con il server, sia comandi che dati
 3.	Il client si connette alla porta P dalla sua porta N+1
 4.	Il server invia un riscontro (ACK) di conferma ricezione, da questo punto inizia il trasferimento dei dati dalla porta P del server 
 
- ![active-mode image](.FTP/Img/passive_mode.jpeg "passive mode") 
+ ![Passive mode](.FTP/Img/passive_mode.jpeg "passive mode") 
  
  ## *Modalità di accesso*
  FTP HA DUE MODALITÀ PREDEFINITE DI ACCESSO: UTENTE E ANONIMA.
