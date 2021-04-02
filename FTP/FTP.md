@@ -21,7 +21,7 @@ Anche se al giorno d'oggi ci sono molti modi per trasferire file attraverso la r
 
 FTP utilizza due canali per la comunicazione tra client server:
 1.	Un canale viene utilizzato per l’invio di comandi tra client e server, e relative risposte, questo canale viene sempre aperto in direzione client => server e utilizza la porta a 21 (detta anche porta di controllo) 
-2.	L’altro canale utilizzato per l’invio dei dati, viene quindi aperto in direzione server => cliente utilizza la porta 20 (porta dati)
+2.	L’altro canale utilizzato per l’invio dei dati, viene quindi aperto in direzione server => client utilizza la porta 20 (porta dati)
 
 La connessione tra client e server può avvenire secondo due modalità: FTP active mode e FTP passive mode
 -	### *Active mode:*
