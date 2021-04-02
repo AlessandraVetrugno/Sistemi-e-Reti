@@ -16,6 +16,7 @@
 
 Anche se al giorno d'oggi ci sono molti modi per trasferire file attraverso la rete (email, chat, web server) che vengono usati largamente per via della familiarità degli utenti con le loro interfacce, questi metodi non sono stati specificatamente pensati per questo e l'FTP risulta dunque più robusto di essi. 
 
+---
 ## *Modalità di lavoro*
 
 FTP utilizza due canali per la comunicazione tra client server:
@@ -45,6 +46,7 @@ Il client FTP inizia entrambe le connessioni con il server, sia comandi che dati
 
  ![Passive mode](.FTP/Img/passive_mode.jpeg "passive mode") 
  
+ ---
  ## *Modalità di accesso*
  FTP HA DUE MODALITÀ PREDEFINITE DI ACCESSO: UTENTE E ANONIMA.
 
@@ -56,6 +58,7 @@ Quest’ultima è molto utilizzata per scambi di dati pubblici e presenta due li
 
 Per la sicurezza del sistema è meglio evitare di usare l’accesso anonimo. Nel caso in cui sia proprio necessario, esso deve essere configurato correttamente e amministrato con attenzione, soprattutto se si vuole rendere accessibili file in upload quindi scrivibili dalle directory (o cartella) nelle aree FTP Anonymous. 
 
+---
 ## *Vulnerabilità*
 
 I maggiori problemi di sicurezza sono riconducibili al fatto che le specifiche non prevedono la cifratura delle informazioni scambiate tra client e server:
